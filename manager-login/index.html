@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="flappy-build" content="auto">
+  <script>!function(){try{var h=location.hostname;if("localhost"===h||"127.0.0.1"===h)return;var p=decodeURIComponent(location.pathname);if(/^\/flappy(?:%20| )game(\/|$)/i.test(p))location.replace(location.origin+(p.replace(/^\/flappy(?:%20| )game/i,"")||"/")+location.search+location.hash)}catch(e){}}();</script>
+  <script src="/flappye/platform/js/shared/boot-redirect.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerente — Flappy Copa</title>
+  <link rel="stylesheet" href="platform/css/tokens.css">
+  <link rel="stylesheet" href="platform/admin/css/admin.css">
+</head>
+<body class="admin-login-page">
+  <div class="admin-login">
+    <div class="admin-login__card">
+      <img class="admin-login__logo" src="assets/logo-header.png" alt="Flappy Copa" width="140" height="46">
+      <h1 class="admin-login__title">Painel do Gerente</h1>
+      <p class="admin-login__sub">Acesso à sua rede de influenciadores</p>
+      <form id="manager-login-form" class="admin-login__form" novalidate>
+        <label class="admin-field">
+          <span class="admin-field__label">WhatsApp</span>
+          <input class="admin-input" type="tel" name="phone" autocomplete="tel" required placeholder="(00) 00000-0000">
+        </label>
+        <label class="admin-field">
+          <span class="admin-field__label">Senha</span>
+          <input class="admin-input" type="password" name="password" autocomplete="current-password" required>
+        </label>
+        <p id="manager-login-error" class="admin-alert admin-alert--error" hidden></p>
+        <button class="admin-btn admin-btn--primary admin-btn--full" type="submit">Entrar</button>
+      </form>
+      <p class="admin-login__hint" style="margin-top:1.25rem">
+        Ainda não tem conta?
+        <a href="manager-register" style="color:var(--admin-green-light);font-weight:600">Criar conta de gerente</a>
+      </p>
+    </div>
+  </div>
+  <script type="module" src="platform/manager/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+:root {
+  --brand-blue: #0b3d91;
+  --brand-blue-dark: #082d6b;
+  --brand-blue-light: #1a5bb8;
+  --brand-yellow: #ffd400;
+  --brand-yellow-dark: #e6be00;
+  --brand-green: #1a5bb8;
+  --brand-green-dark: #0b3d91;
+  --white: #ffffff;
+  --gray-50: #f7f9fc;
+  --gray-100: #eef2f8;
+  --gray-200: #dce3ef;
+  --gray-500: #6b7a90;
+  --gray-800: #1e2a3b;
+  --gray-900: #0f1724;
+
+  --font-display: 'Outfit', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'DM Sans', 'Segoe UI', system-ui, sans-serif;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  --shadow-sm: 0 4px 14px rgba(11, 61, 145, 0.08);
+  --shadow-md: 0 12px 32px rgba(11, 61, 145, 0.12);
+  --shadow-lg: 0 24px 48px rgba(11, 61, 145, 0.16);
+
+  --glass: rgba(255, 255, 255, 0.12);
+  --glass-border: rgba(255, 255, 255, 0.22);
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}

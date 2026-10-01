@@ -1,0 +1,8 @@
+# Flappy Copo — Netlify / Cloudflare Pages
+# Nao ha redirects no site original: todas as rotas sao arquivos reais.
+# (/login, /register, /dashboard, /admin, /admin-login, /manager,
+#  /manager-login, /manager-register, /game — todas com index.html proprio)
+# Rotas inexistentes caem no 404.html (servido automaticamente pelas duas plataformas).
+#
+# Antes de publicar aqui:  node tools\setup.js --root
+# (o GitHub Pages usa a base /flappye — padrao de tools\base.js)
