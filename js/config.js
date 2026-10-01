@@ -69,6 +69,8 @@ export const GAME_CONFIG = {
   defaultBetAmount: 5,
   defaultRewardPerObstacle: 1,
   defaultDifficulty: 'medium',
+  /** Meta = aposta × multiplicador (faltava no objeto — gerava "Meta R$ NaN") */
+  metaMultiplier: MetaMultiplier,
 
   progression: {
     medium: { startAfterPipes: 7, rampPipes: 44, goalWeight: 0.48, warmupSpeedMul: 1.1 },
